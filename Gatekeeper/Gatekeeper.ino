@@ -45,7 +45,7 @@ void openDoor(){
   Serial.println("Open the Door ...");
   digitalWrite(ledPin, 0);
   digitalWrite(relayPin, 1);
-  delay(15000);
+  delay(7500);
   digitalWrite(ledPin, 1);
   digitalWrite(relayPin, 0);
 }
